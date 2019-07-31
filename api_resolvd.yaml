@@ -288,7 +288,7 @@ paths:
         description: Pet object that needs to be added to the store
         required: true
         schema:
-          $ref: '#/definitions/Pet'
+          $ref: '#/definitions/User'
       responses:
         400:
           description: Invalid ID supplied
@@ -329,7 +329,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: '#/definitions/Pet'
+              $ref: '#/definitions/User'
         400:
           description: Invalid status value
       security:
@@ -381,7 +381,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: '#/definitions/Pet'
+              $ref: '#/definitions/User'
         400:
           description: Invalid tag value
       security:
